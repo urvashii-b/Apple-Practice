@@ -46,3 +46,5 @@ react-app/.vite/deps/
 input.txt
 output.txt
 *.log
+
+.DS_Store
