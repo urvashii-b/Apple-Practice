@@ -1,0 +1,48 @@
+# React App Specific
+react-app/logs/
+react-app/*.log
+react-app/npm-debug.log*
+react-app/yarn-debug.log*
+react-app/yarn-error.log*
+react-app/pnpm-debug.log*
+react-app/lerna-debug.log*
+
+# Node.js (React App specific)
+react-app/node_modules/
+react-app/dist/
+react-app/dist-ssr/
+react-app/*.local
+
+# Editor directories and files
+react-app/.vscode/*
+!react-app/.vscode/extensions.json
+react-app/.idea/
+react-app/.DS_Store
+react-app/*.suo
+react-app/*.ntvs*
+react-app/*.njsproj
+react-app/*.sln
+react-app/*.sw?
+
+# Environment Files
+react-app/.env
+react-app/.env.local
+react-app/.env.*.local
+
+# Vite
+react-app/.vite/
+react-app/.vite/deps/
+
+# Root-Level Ignored Files
+.vscode/
+*.code-workspace
+
+# C++ Compiled Files
+*.o
+*.out
+*.exe
+
+# Temporary/Test Files
+input.txt
+output.txt
+*.log

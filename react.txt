@@ -1,0 +1,49 @@
+Typescript - Superset of Javascript: 
+    adds static typing which helps in catching errors earlier in the development process
+
+React - Javascript library:
+    building dynamic and interactive user interfaces
+    by Facebook in 2011
+Angular, Vue - Frameworks
+
+Library: a tool that provides specific functionality
+Framework: set of tools and guidelines for building apps
+
+When a webpage is loaded in a browser, it takes html code and creates the document object model (dom)
+this allows us to change the content based on user actions
+
+vanilla javascript - without any third party tools (querying and updating)
+react - small reusable components (modular and better organized code)
+
+react 'app' (root bringing everything together) - tree of components
+
+--------------------------------------------------------
+
+2 ways to create a react app - 1. CRA, 2. Vite
+
+node-modules: all third party libraries and tools are installed (no need to touch this)
+public folder: all assets like images and video files are present here
+App (single) component in src folder
+main.tsx in src folder: entry point of application
+index.html: div with id of root - container of application
+package.json: details about the project (name, version, scripts, dependencies, dev dependencies that are not going to be deployed in the future)
+tsconfig.json: tells typescript compiler how to compile our code to javascript
+vite.config.ts: configuration file for vite
+
+use .ts for plain typescript files 
+use .tsx for react components
+
+recommended: function based components for new projects
+
+react-dom: updates actual dom after lookign at virtual dom
+
+react is platform agnostic: can be used to build mobile (react native) and web applications
+
+ecosystem:
+    ui (react)
+    routing - going from pone place to another
+    http - calls
+    managing app state
+    internationalization
+    form validation
+    animations
