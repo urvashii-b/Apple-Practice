@@ -19,6 +19,7 @@ int main(){
     #endif
     */
 
+    // 1. C++ BASICS
     // strings - getline
     cout<<"Hey, I'm Urvashi"<<"\n";
     string name;
@@ -95,5 +96,19 @@ int main(){
     cout<<"New company: "<<company<<endl;
 
 
+    // 2. TIME AND SPACE COMPLEXITY
+    /* 
+    TC != time taken as it is dependent on system config
+    rate at which the time taken increases with respect to the input size
+    big oh notation - worst tc - O(x)
+    theta notation - average tc
+    omega notation - best tc
+
+    sc = memory space (input + auxiliary)
+
+    dont manipulate data (dont change the input given)
+
+    10^8 operations == 1second
+    */
     return 0;
 }
