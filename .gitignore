@@ -13,6 +13,8 @@ react-app/dist/
 react-app/dist-ssr/
 react-app/*.local
 
+tic-tac-toe/node_modules/
+
 # Editor directories and files
 react-app/.vscode/*
 !react-app/.vscode/extensions.json
